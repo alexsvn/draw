@@ -1,1 +1,82 @@
-<mxfile host="app.diagrams.net" modified="2022-11-09T02:48:08.271Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" version="20.4.0" etag="bWeb89Qm-70jmkGM6kGH" type="github"><diagram id="Ixk9QpZ5COSUHH11wEd3">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-11-09T03:13:35.308Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="UGo1GcWlC2uqL1UHoAD8" version="20.4.0" type="github">
+  <diagram id="Ixk9QpZ5COSUHH11wEd3" name="第 1 页">
+    <mxGraphModel dx="1422" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="eS4B7B05dFr48CSAXxL0-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="eS4B7B05dFr48CSAXxL0-1" target="eS4B7B05dFr48CSAXxL0-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eS4B7B05dFr48CSAXxL0-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="eS4B7B05dFr48CSAXxL0-1" target="eS4B7B05dFr48CSAXxL0-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eS4B7B05dFr48CSAXxL0-1" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="144" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eS4B7B05dFr48CSAXxL0-15" value="PMK 256 bits" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="eS4B7B05dFr48CSAXxL0-1">
+          <mxGeometry x="44" y="5" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eS4B7B05dFr48CSAXxL0-10" value="TKIP，PTK 512 bit" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="150" y="254" width="175" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="eS4B7B05dFr48CSAXxL0-11" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;Hannotate SC&amp;quot;, &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Segoe UI Emoji&amp;quot;, sans-serif; font-size: 14px; orphans: 4; background-color: rgb(255, 255, 255);&quot;&gt;EAPOL&lt;br&gt;KCK 128&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=270;" vertex="1" parent="eS4B7B05dFr48CSAXxL0-10">
+          <mxGeometry x="-20" y="50" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="eS4B7B05dFr48CSAXxL0-12" value="&lt;div style=&quot;orphans: 4;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 14px;&quot;&gt;&lt;font face=&quot;Hannotate SC, Open Sans, Clear Sans, Helvetica Neue, Helvetica, Arial, Segoe UI Emoji, sans-serif&quot; color=&quot;#333333&quot;&gt;EAPOL&lt;br&gt;KEK 128&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=270;" vertex="1" parent="eS4B7B05dFr48CSAXxL0-10">
+          <mxGeometry x="30" y="50" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="eS4B7B05dFr48CSAXxL0-13" value="&lt;div style=&quot;orphans: 4;&quot;&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;Hannotate SC&amp;quot;, &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Segoe UI Emoji&amp;quot;, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);&quot;&gt;TKIP&lt;br&gt;TK 128&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=270;" vertex="1" parent="eS4B7B05dFr48CSAXxL0-10">
+          <mxGeometry x="74" y="50" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="eS4B7B05dFr48CSAXxL0-14" value="&lt;div style=&quot;orphans: 4;&quot;&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;Hannotate SC&amp;quot;, &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Segoe UI Emoji&amp;quot;, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);&quot;&gt;TKIP&lt;br&gt;MIC key 128&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=270;" vertex="1" parent="eS4B7B05dFr48CSAXxL0-10">
+          <mxGeometry x="100" y="50" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="eS4B7B05dFr48CSAXxL0-19" style="edgeStyle=none;shape=link;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="eS4B7B05dFr48CSAXxL0-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="120" as="targetPoint" />
+            <mxPoint x="40" y="30" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eS4B7B05dFr48CSAXxL0-18" style="edgeStyle=none;shape=link;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="eS4B7B05dFr48CSAXxL0-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="90" y="120" as="targetPoint" />
+            <mxPoint x="90" y="30" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eS4B7B05dFr48CSAXxL0-17" style="edgeStyle=none;shape=link;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="eS4B7B05dFr48CSAXxL0-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="120" as="targetPoint" />
+            <mxPoint x="130" y="30" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eS4B7B05dFr48CSAXxL0-20" value="CCMP，PTK 384 bit" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="390" y="254" width="185" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="eS4B7B05dFr48CSAXxL0-21" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;Hannotate SC&amp;quot;, &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Segoe UI Emoji&amp;quot;, sans-serif; font-size: 14px; orphans: 4; background-color: rgb(255, 255, 255);&quot;&gt;EAPOL&lt;br&gt;KCK 128&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=270;" vertex="1" parent="eS4B7B05dFr48CSAXxL0-20">
+          <mxGeometry x="-14" y="50" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="eS4B7B05dFr48CSAXxL0-22" value="&lt;div style=&quot;orphans: 4;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 14px;&quot;&gt;&lt;font face=&quot;Hannotate SC, Open Sans, Clear Sans, Helvetica Neue, Helvetica, Arial, Segoe UI Emoji, sans-serif&quot; color=&quot;#333333&quot;&gt;EAPOL&lt;br&gt;KEK 128&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=270;" vertex="1" parent="eS4B7B05dFr48CSAXxL0-20">
+          <mxGeometry x="49" y="50" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="eS4B7B05dFr48CSAXxL0-24" value="&lt;div style=&quot;orphans: 4;&quot;&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;Hannotate SC&amp;quot;, &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Segoe UI Emoji&amp;quot;, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);&quot;&gt;CCMP&lt;br&gt;TK 128&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=270;" vertex="1" parent="eS4B7B05dFr48CSAXxL0-20">
+          <mxGeometry x="115" y="50" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="eS4B7B05dFr48CSAXxL0-25" style="edgeStyle=none;shape=link;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="eS4B7B05dFr48CSAXxL0-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="62" y="120" as="targetPoint" />
+            <mxPoint x="62" y="30" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eS4B7B05dFr48CSAXxL0-27" style="edgeStyle=none;shape=link;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="eS4B7B05dFr48CSAXxL0-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="125" y="120" as="targetPoint" />
+            <mxPoint x="125" y="30" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eS4B7B05dFr48CSAXxL0-31" value="PRF Expansion(Supplicant/authenticator address and nonces)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="190" y="190" width="360" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
