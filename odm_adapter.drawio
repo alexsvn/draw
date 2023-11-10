@@ -1,0 +1,69 @@
+<mxfile host="app.diagrams.net" modified="2023-11-10T10:47:42.647Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="Y0k4qvJbJDEdD-lIhnxP" version="22.0.8" type="github" pages="2">
+  <diagram name="Page-1" id="wbXSyLQxYoF9p7WrQqie">
+    <mxGraphModel dx="1434" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="690" pageHeight="980" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="BLSO8ZFHqQm2V1UzN6Yr-3" value="Object" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="80" y="740" width="430" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="0xVbg8YlvsJ4z3zrdJkq-11" value="Object" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="80" y="260" width="430" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="0xVbg8YlvsJ4z3zrdJkq-2" value="webserver" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="110" y="540" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0xVbg8YlvsJ4z3zrdJkq-3" value="wlan_mgr" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="130" y="570" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0xVbg8YlvsJ4z3zrdJkq-4" value="wlan_cfg" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="290" y="570" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0xVbg8YlvsJ4z3zrdJkq-5" value="wlan_msg_proc" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="310" y="600" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0xVbg8YlvsJ4z3zrdJkq-6" value="common" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="110" y="440" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0xVbg8YlvsJ4z3zrdJkq-7" value="msg_common" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="290" y="440" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0xVbg8YlvsJ4z3zrdJkq-8" value="msg_common" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="310" y="470" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0xVbg8YlvsJ4z3zrdJkq-9" value="data" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="110" y="350" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0xVbg8YlvsJ4z3zrdJkq-10" value="libappfrwk" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="110" y="770" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BLSO8ZFHqQm2V1UzN6Yr-1" value="app" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="80" y="260" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BLSO8ZFHqQm2V1UzN6Yr-2" value="libapps" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="80" y="740" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="-qZh636UfddNibn7b-cb" name="Page-2">
+    <mxGraphModel dx="1434" dy="1770" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="690" pageHeight="980" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="NrY_CFwBNtvCnMPrcQOg-1" value="webserver" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry y="-980" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NrY_CFwBNtvCnMPrcQOg-2" value="struct webs_s_type" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="-880" width="140" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="NrY_CFwBNtvCnMPrcQOg-3" value="cstring action&lt;br&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NrY_CFwBNtvCnMPrcQOg-2">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NrY_CFwBNtvCnMPrcQOg-5" value="webs_action_pfunc cb;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NrY_CFwBNtvCnMPrcQOg-2">
+          <mxGeometry y="52" width="140" height="26" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
