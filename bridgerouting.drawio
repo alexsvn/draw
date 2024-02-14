@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-14T08:41:49.817Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="weqcl_t9pTvuEl1SM2PQ" version="23.1.4" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-02-14T10:19:49.333Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="wmtBzC1YoEBkhNZl30tC" version="23.1.4" type="github" pages="3">
   <diagram name="Dual GW" id="bfe91b75-5d2c-26a0-9c1d-138518896778">
     <mxGraphModel dx="1077" dy="564" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -701,7 +701,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="K7JWZ5wPfVln6KBov4zX" name="HTTP">
-    <mxGraphModel dx="1562" dy="818" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1302" dy="682" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1188,9 +1188,6 @@
         </mxCell>
         <mxCell id="zfvfIJBa0owPziYZEWmF-116" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="zfvfIJBa0owPziYZEWmF-111">
           <mxGeometry x="25" y="2.5" width="39" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="zfvfIJBa0owPziYZEWmF-134" value="RSP" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="529" y="360" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="zfvfIJBa0owPziYZEWmF-135" value="REQ" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="215" y="315" width="50" height="30" as="geometry" />
