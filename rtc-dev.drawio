@@ -1,0 +1,137 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.1.2">
+  <diagram name="第 1 页" id="0GCbE0bhjehrPCnUMWQU">
+    <mxGraphModel dx="1426" dy="1920" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WuNuPuagHCZW5Ep3QhaO-1" value="rtc-dev.c" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="70" y="-15" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WuNuPuagHCZW5Ep3QhaO-3" value="class.c" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="70" y="340" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WuNuPuagHCZW5Ep3QhaO-4" value="qpnp-rtc.c" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="70" y="710" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WuNuPuagHCZW5Ep3QhaO-5" value="" style="html=1;whiteSpace=wrap;align=left;" vertex="1" parent="1">
+          <mxGeometry x="240" y="-220" width="380" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="WuNuPuagHCZW5Ep3QhaO-6" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;align=left;" vertex="1" parent="1">
+          <mxGeometry x="240" y="210" width="380" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="WuNuPuagHCZW5Ep3QhaO-7" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;align=left;" vertex="1" parent="1">
+          <mxGeometry x="235" y="540" width="380" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="WuNuPuagHCZW5Ep3QhaO-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WuNuPuagHCZW5Ep3QhaO-9" target="WuNuPuagHCZW5Ep3QhaO-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="220" y="585" />
+              <mxPoint x="220" y="735" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WuNuPuagHCZW5Ep3QhaO-9" value="&lt;div style=&quot;&quot;&gt;struct spmi_driver qpnp_rtc_driver = {&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp; .probe = qpnp_rtc_probe,&lt;/div&gt;&lt;div style=&quot;&quot;&gt;};&lt;/div&gt;" style="html=1;whiteSpace=wrap;align=left;" vertex="1" parent="1">
+          <mxGeometry x="245" y="560" width="360" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WuNuPuagHCZW5Ep3QhaO-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontStyle=0;fontSize=11;startSize=6;jumpSize=6;" edge="1" parent="1" source="WuNuPuagHCZW5Ep3QhaO-10" target="WuNuPuagHCZW5Ep3QhaO-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="640" />
+              <mxPoint x="200" y="585" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WuNuPuagHCZW5Ep3QhaO-10" value="&lt;div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;module_init(qpnp_rtc_init);&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;qpnp_rtc_init(void);&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp; spmi_driver_register(&amp;amp;qpnp_rtc_driver);&lt;/div&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;align=left;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="1">
+          <mxGeometry x="245" y="620" width="360" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WuNuPuagHCZW5Ep3QhaO-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WuNuPuagHCZW5Ep3QhaO-11" target="WuNuPuagHCZW5Ep3QhaO-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="360.0000000000002" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="650" y="735" />
+              <mxPoint x="650" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WuNuPuagHCZW5Ep3QhaO-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WuNuPuagHCZW5Ep3QhaO-11" target="WuNuPuagHCZW5Ep3QhaO-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="220" y="758" />
+              <mxPoint x="220" y="895" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WuNuPuagHCZW5Ep3QhaO-11" value="&lt;div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;qpnp_rtc_probe(struct spmi_device *spmi)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp; rtc_device_register(&quot;qpnp_rtc&quot;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;amp;spmi-&amp;gt;dev,&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;amp;qpnp_rtc_ops&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; THIS_MODULE)&lt;/div&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;align=left;" vertex="1" parent="1">
+          <mxGeometry x="245" y="690" width="360" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="WuNuPuagHCZW5Ep3QhaO-12" value="&lt;div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;struct rtc_class_ops qpnp_rtc_ops = {&amp;nbsp; //类设备有11个操作&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp; .open&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;= NULL,&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; //fops -- open&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp; .release&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; = NULL,&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp; .ioctl&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; = NULL,&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp; .read_time&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; = qpnp_rtc_read_time,&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp; .set_time&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;= NULL,&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp; .read_alarm&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;= qpnp_rtc_read_alarm,&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp; .set_alarm&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; = qpnp_rtc_set_alarm,&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp; .proc&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;= NULL,&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp; .set_mmss&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;= NULL,&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp; .read_callback&amp;nbsp; &amp;nbsp; &amp;nbsp; = NULL,&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; //fops -- read&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp; .alarm_irq_enable&amp;nbsp; &amp;nbsp;= qpnp_rtc_alarm_irq_enable,&lt;/div&gt;&lt;div style=&quot;&quot;&gt;};&lt;/div&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;align=left;" vertex="1" parent="1">
+          <mxGeometry x="245" y="790" width="360" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="WuNuPuagHCZW5Ep3QhaO-17" value="&lt;div style=&quot;&quot;&gt;rtc_device_register(const char *name,&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; struct device *dev,&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; const struct rtc_class_ops *ops,&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; struct module *owner)&lt;/div&gt;" style="html=1;whiteSpace=wrap;align=left;" vertex="1" parent="1">
+          <mxGeometry x="250" y="280" width="350" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WuNuPuagHCZW5Ep3QhaO-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WuNuPuagHCZW5Ep3QhaO-18" target="WuNuPuagHCZW5Ep3QhaO-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="630" y="385" />
+              <mxPoint x="630" y="25" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WuNuPuagHCZW5Ep3QhaO-18" value="&lt;div style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp; rtc_dev_prepare(rtc);&lt;/div&gt;" style="html=1;whiteSpace=wrap;align=left;" vertex="1" parent="1">
+          <mxGeometry x="260" y="370" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WuNuPuagHCZW5Ep3QhaO-19" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp; rtc_sysfs_add_device(rtc);&lt;/span&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;align=left;" vertex="1" parent="1">
+          <mxGeometry x="260" y="460" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WuNuPuagHCZW5Ep3QhaO-20" value="&lt;div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;rtc_dev_init()&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp; alloc_chrdev_region();&amp;nbsp;&lt;/div&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;align=left;" vertex="1" parent="1">
+          <mxGeometry x="250" y="-50" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WuNuPuagHCZW5Ep3QhaO-21" value="&lt;div style=&quot;&quot;&gt;rtc_dev_add_device(&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;cdev_add(&amp;amp;rtc-&amp;gt;char_dev, rtc-&amp;gt;dev.dev, 1);&lt;/div&gt;" style="html=1;whiteSpace=wrap;align=left;" vertex="1" parent="1">
+          <mxGeometry x="250" y="60" width="360" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WuNuPuagHCZW5Ep3QhaO-22" value="&lt;div style=&quot;&quot;&gt;rtc_dev_del_device(struct rtc_device *rtc);&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp; cdev_del(&amp;amp;rtc-&amp;gt;char_dev);&lt;/div&gt;" style="html=1;whiteSpace=wrap;align=left;" vertex="1" parent="1">
+          <mxGeometry x="250" y="120" width="360" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WuNuPuagHCZW5Ep3QhaO-24" value="&lt;div style=&quot;&quot;&gt;rtc_dev_prepare(struct rtc_device *rtc);&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp; cdev_init(&amp;amp;rtc-&amp;gt;char_dev, &amp;amp;rtc_dev_fops);&amp;nbsp;&amp;nbsp;&lt;/div&gt;" style="html=1;whiteSpace=wrap;align=left;" vertex="1" parent="1">
+          <mxGeometry x="250" width="360" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WuNuPuagHCZW5Ep3QhaO-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="WuNuPuagHCZW5Ep3QhaO-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="-135" as="sourcePoint" />
+            <mxPoint x="605" y="892.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="660" y="-135" />
+              <mxPoint x="660" y="895" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WuNuPuagHCZW5Ep3QhaO-25" value="&lt;div style=&quot;&quot;&gt;struct file_operations rtc_dev_fops = {&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp; .lseek = ,&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp; .read = ,&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp; .poll = ,&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp; .unlocked_ioctl = rtc_dev_ioctl,&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp; .open = rtc_dev_open,&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp; .release = ,&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp; .fasync = ,&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp; //...&lt;/div&gt;&lt;div style=&quot;&quot;&gt;};&lt;/div&gt;" style="html=1;whiteSpace=wrap;align=left;" vertex="1" parent="1">
+          <mxGeometry x="250" y="-210" width="360" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="WuNuPuagHCZW5Ep3QhaO-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WuNuPuagHCZW5Ep3QhaO-28" target="WuNuPuagHCZW5Ep3QhaO-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="640" y="425" />
+              <mxPoint x="640" y="85" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WuNuPuagHCZW5Ep3QhaO-28" value="&lt;span style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp; rtc_dev_add_device(rtc);&lt;/span&gt;" style="html=1;whiteSpace=wrap;align=left;" vertex="1" parent="1">
+          <mxGeometry x="260" y="410" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WuNuPuagHCZW5Ep3QhaO-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WuNuPuagHCZW5Ep3QhaO-35" target="WuNuPuagHCZW5Ep3QhaO-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="650" y="245" />
+              <mxPoint x="650" y="-30" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WuNuPuagHCZW5Ep3QhaO-35" value="&lt;div&gt;subsys_initcal(rtc_init);&lt;/div&gt;&lt;div&gt;rtc_init()&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; rtc_dev_init();&lt;/div&gt;" style="html=1;whiteSpace=wrap;align=left;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="1">
+          <mxGeometry x="250" y="220" width="350" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
